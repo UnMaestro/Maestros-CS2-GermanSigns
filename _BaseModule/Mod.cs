@@ -14,7 +14,7 @@ namespace _BaseModule
 {
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger($"{nameof(_BaseModule)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger($"{typeof(Mod).Assembly.GetName().Name}.{nameof(Mod)}").SetShowsErrorsInUI(false);
 
         private static readonly BindingFlags allFlags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly | BindingFlags.GetField | BindingFlags.GetProperty;
 
