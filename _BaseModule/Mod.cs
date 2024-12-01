@@ -28,19 +28,21 @@ namespace _BaseModule
 
             DoPatches();
 
-            var imagesDirectory = Path.Combine(asset.path, "atlases");
+            var modDir = Path.GetDirectoryName(asset.path);
+
+            var imagesDirectory = Path.Combine(modDir, "atlases");
             var atlases = Directory.GetDirectories(imagesDirectory, "*", SearchOption.TopDirectoryOnly);
             foreach (var atlasFolder in atlases)
             {
                 WEImageManagementBridge.RegisterImageAtlas(typeof(Mod).Assembly, Path.GetFileName(atlasFolder), Directory.GetFiles(atlasFolder, "*.png"));
             }
 
-            var layoutsDirectory = Path.Combine(asset.path, "layouts");
+            var layoutsDirectory = Path.Combine(modDir, "layouts");
             WETemplatesManagementBridge.RegisterCustomTemplates(typeof(Mod).Assembly, layoutsDirectory);
             WETemplatesManagementBridge.RegisterLoadableTemplatesFolder(typeof(Mod).Assembly, layoutsDirectory);
 
 
-            var fontsDirectory = Path.Combine(asset.path, "fonts");
+            var fontsDirectory = Path.Combine(modDir, "fonts");
             WEFontManagementBridge.RegisterModFonts(typeof(Mod).Assembly, fontsDirectory);
         }
 
