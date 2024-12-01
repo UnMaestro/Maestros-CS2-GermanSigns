@@ -28,6 +28,11 @@ namespace _BaseModule
 
             DoPatches();
 
+            RegisterModFiles(asset);
+        }
+
+        private static void RegisterModFiles(Colossal.IO.AssetDatabase.ExecutableAsset asset)
+        {
             var modDir = Path.GetDirectoryName(asset.path);
 
             var imagesDirectory = Path.Combine(modDir, "atlases");
