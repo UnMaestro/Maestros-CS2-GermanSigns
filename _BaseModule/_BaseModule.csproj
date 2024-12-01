@@ -34,7 +34,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ModTag Include="Code Mod;Write Everywhere Module" />
+    <ModTag Include="Code Mod;Write Everywhere" />
     <Screenshots Include="Screenshots/*.jpg" />
     <Dependency Include="WriteEverywhere">
       <ModId>92908</ModId>
