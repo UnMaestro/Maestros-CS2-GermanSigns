@@ -5,6 +5,7 @@ using Game.Modding;
 using Game.SceneFlow;
 using HarmonyLib;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,11 +29,12 @@ namespace _BaseModule
 
             DoPatches();
 
-            RegisterModFiles(asset);
+            GameManager.instance.StartCoroutine(RegisterModFiles(asset));
         }
 
-        private static void RegisterModFiles(Colossal.IO.AssetDatabase.ExecutableAsset asset)
+        private static IEnumerator RegisterModFiles(Colossal.IO.AssetDatabase.ExecutableAsset asset)
         {
+            yield return 0;
             var modDir = Path.GetDirectoryName(asset.path);
 
             var imagesDirectory = Path.Combine(modDir, "atlases");

@@ -8,6 +8,8 @@ This is a project to be used as starter point to any new module pack of Write Ev
 
 ## Setting up
 
+- Rename this project and solution to setup the DLL name this module will have.
+	- TIP: To avoid conflicts, start the project name with a acronym representing your name, example: `XYZ_MyWEModule` being XYZ the acronym that represents you.
 - Add resources at each `Resources/` subfolder as instructed locally there
 - Change csproj file details (DisplayName, ShortDescription, ForumLink, other social media links tags)
 - Setup thumbnail into `Properties/Thumbnail.png`
@@ -23,6 +25,6 @@ After that, just don't forget to change the Version parameter in the csproj file
   <ChangeLog>#  v1.0.0r0
 \&lt;ADD CHANGES HERE\&gt;</ChangeLog>
   <Tag Value="Code Mod" />
-  <Tag Value="Write Everywhere Module" />
+  <Tag Value="Write Everywhere" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
 </Publish>
