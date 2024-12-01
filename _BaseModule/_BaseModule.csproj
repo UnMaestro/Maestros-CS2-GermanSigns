@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net472</TargetFramework>
+    <LangVersion>12</LangVersion>
+		<Configurations>Debug;Release</Configurations>
+		
+		<!--The file where mod information which is required for publishing mod on PDX mods are stored-->
+		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
+	</PropertyGroup>
+	
+	<!--Imports must be after PropertyGroup block-->
+	<Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props" />
+	<Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.targets" />
+  <Import Project="$(SolutionDir)\_Build\belzont_public.targets" />
+
+  <PropertyGroup>
+    <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
+    <ModId></ModId>
+    <Version>1.0.0.0</Version>
+    <GameVersion>1.1.*</GameVersion>
+    <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
+    <DisplayName>Write Everywhere Module Model Project</DisplayName>
+    <ShortDescription>Module to use along CS2 version of the mod Write Everywhere</ShortDescription>
+    <ForumLink></ForumLink>
+    <GitHubLink></GitHubLink>
+    <YoutubeLink></YoutubeLink>
+    <KofiLink></KofiLink>
+    <BMACLink></BMACLink>
+    <CrowdinLink></CrowdinLink>
+    <TwitterLink></TwitterLink>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ModTag Include="Code Mod;Write Everywhere Module" />
+    <Screenshots Include="Screenshots/*.jpg" />
+    <Dependency Include="WriteEverywhere">
+      <ModId>92908</ModId>
+      <DisplayName>Write Everywhere</DisplayName>
+    </Dependency>
+  </ItemGroup>
+  
+
+	<ItemGroup>
+		<Reference Include="Game">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Colossal.Core">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Colossal.Logging">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Colossal.IO.AssetDatabase">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Unity.Burst">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Unity.Collections">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Unity.Entities">
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Unity.Mathematics">
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Update="System">
+			<Private>false</Private>
+		</Reference>
+		<Reference Update="System.Core">
+			<Private>false</Private>
+		</Reference>
+		<Reference Update="System.Data">
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="$(ModPropsFile)" Link="Properties\Mod.props" />
+		<None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lib.Harmony" Version="2.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="changelog.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\layouts\" />
+    <Folder Include="Resources\atlases\" />
+    <Folder Include="Resources\fonts\" />
+  </ItemGroup>
+  
+  <Target Name="GetAdditionalFiles" AfterTargets="DeployWIP">
+    <ItemGroup>
+      <AdditionalFilesToDeploy Include="Resources\atlases\**\*.png" />
+      <AdditionalFilesToDeploy Include="Resources\fonts\**\*.ttf" />
+      <AdditionalFilesToDeploy Include="Resources\layouts\**\*.wedefault.xml" />
+      <AdditionalFilesToDeploy Include="Resources\layouts\**\*.welayout.xml" />
+    </ItemGroup>
+    <Copy SourceFiles="@(AdditionalFilesToDeploy)" DestinationFiles="@(AdditionalFilesToDeploy->'$(DeployDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+</Project>
