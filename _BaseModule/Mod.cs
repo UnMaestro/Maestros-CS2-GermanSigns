@@ -5,7 +5,6 @@ using Game.Modding;
 using Game.SceneFlow;
 using HarmonyLib;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -16,9 +15,7 @@ namespace _BaseModule
     public class Mod : IMod
     {
         public static ILog log = LogManager.GetLogger($"{typeof(Mod).Assembly.GetName().Name}.{nameof(Mod)}").SetShowsErrorsInUI(false);
-
         private static readonly BindingFlags allFlags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly | BindingFlags.GetField | BindingFlags.GetProperty;
-
 
         public void OnLoad(UpdateSystem updateSystem)
         {
@@ -27,21 +24,30 @@ namespace _BaseModule
             if (GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
                 log.Info($"Current mod asset at {asset.path}");
 
-            DoPatches();
-
-            GameManager.instance.StartCoroutine(RegisterModFiles(asset));
+            GameManager.instance.onGameLoadingComplete += DoWhenLoaded;
         }
 
-        private static IEnumerator RegisterModFiles(Colossal.IO.AssetDatabase.ExecutableAsset asset)
+        private void DoWhenLoaded(Colossal.Serialization.Entities.Purpose purpose, GameMode mode)
         {
-            yield return 0;
+            log.Info($"Loading patches");
+            DoPatches();
+            RegisterModFiles();
+            GameManager.instance.onGameLoadingComplete -= DoWhenLoaded;
+        }
+
+        private void RegisterModFiles()
+        {
+            GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset);
             var modDir = Path.GetDirectoryName(asset.path);
 
             var imagesDirectory = Path.Combine(modDir, "atlases");
-            var atlases = Directory.GetDirectories(imagesDirectory, "*", SearchOption.TopDirectoryOnly);
-            foreach (var atlasFolder in atlases)
+            if (Directory.Exists(imagesDirectory))
             {
-                WEImageManagementBridge.RegisterImageAtlas(typeof(Mod).Assembly, Path.GetFileName(atlasFolder), Directory.GetFiles(atlasFolder, "*.png"));
+                var atlases = Directory.GetDirectories(imagesDirectory, "*", SearchOption.TopDirectoryOnly);
+                foreach (var atlasFolder in atlases)
+                {
+                    WEImageManagementBridge.RegisterImageAtlas(typeof(Mod).Assembly, Path.GetFileName(atlasFolder), Directory.GetFiles(atlasFolder, "*.png"));
+                }
             }
 
             var layoutsDirectory = Path.Combine(modDir, "layouts");
