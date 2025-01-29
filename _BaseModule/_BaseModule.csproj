@@ -71,6 +71,9 @@
 		<Reference Include="Unity.Mathematics">
 			<Private>false</Private>
 		</Reference>
+    <Reference Include="Colossal.AssetPipeline">
+      <Private>False</Private>
+    </Reference>
 	</ItemGroup>
 
 	<ItemGroup>

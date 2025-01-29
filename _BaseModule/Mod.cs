@@ -1,4 +1,5 @@
 ﻿using BridgeWE;
+using Colossal.IO.AssetDatabase;
 using Colossal.Logging;
 using Game;
 using Game.Modding;
@@ -61,28 +62,29 @@ namespace _BaseModule
 
         private void DoPatches()
         {
-            if (AppDomain.CurrentDomain.GetAssemblies().SingleOrDefault(assembly => assembly.GetName().Name == "BelzontWE") is Assembly weAssembly)
+            var weAsset = AssetDatabase.global.GetAsset(SearchFilter<ExecutableAsset>.ByCondition(asset => asset.isEnabled && asset.isLoaded && asset.name.Equals("BelzontWE")));
+            if (weAsset?.assembly is null)
             {
-                var exportedTypes = weAssembly.ExportedTypes;
-                foreach (var (type, sourceClassName) in new List<(Type, string)>() {
+                throw new Exception($"The module {GetType().Name} requires Write Everywhere mod to work!");
+
+            }
+
+            var exportedTypes = weAsset.assembly.ExportedTypes;
+            foreach (var (type, sourceClassName) in new List<(Type, string)>() {
                     (typeof(WEFontManagementBridge), "FontManagementBridge"),
                     (typeof(WEImageManagementBridge), "ImageManagementBridge"),
                     (typeof(WETemplatesManagementBridge), "TemplatesManagementBridge"),
                 })
+            {
+                var targetType = exportedTypes.First(x => x.Name == sourceClassName);
+                foreach (var method in type.GetMethods(BindingFlags.Public | BindingFlags.Static))
                 {
-                    var targetType = exportedTypes.First(x => x.Name == sourceClassName);
-                    foreach (var method in type.GetMethods(BindingFlags.Public | BindingFlags.Static))
-                    {
-                        var srcMethod = targetType.GetMethod(method.Name, allFlags, null, method.GetParameters().Select(x => x.ParameterType).ToArray(), null);
-                        if (srcMethod != null) Harmony.ReversePatch(srcMethod, method);
-                        else log.Warn($"Method not found while patching WE: {targetType.FullName} {srcMethod.Name}({string.Join(", ", method.GetParameters().Select(x => $"{x.ParameterType}"))})");
-                    }
+                    var srcMethod = targetType.GetMethod(method.Name, allFlags, null, method.GetParameters().Select(x => x.ParameterType).ToArray(), null);
+                    if (srcMethod != null) Harmony.ReversePatch(srcMethod, method);
+                    else log.Warn($"Method not found while patching WE: {targetType.FullName} {srcMethod.Name}({string.Join(", ", method.GetParameters().Select(x => $"{x.ParameterType}"))})");
                 }
             }
-            else
-            {
-                throw new Exception("Write Everywhere dll file required for using this mod! Check if it's enabled.");
-            }
+
         }
 
         public void OnDispose()
