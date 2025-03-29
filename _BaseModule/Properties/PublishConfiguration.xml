@@ -21,10 +21,9 @@ After that, just don't forget to change the Version parameter in the csproj file
   <Thumbnail Value="Properties/Thumbnail.png" />
   <ForumLink Value="" />
   <ModVersion Value="1.0.0.0" />
-  <GameVersion Value="1.1.*" />
+  <GameVersion Value="1.*" />
   <ChangeLog>#  v1.0.0r0
 \&lt;ADD CHANGES HERE\&gt;</ChangeLog>
   <Tag Value="Code Mod" />
-  <Tag Value="Write Everywhere" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
 </Publish>

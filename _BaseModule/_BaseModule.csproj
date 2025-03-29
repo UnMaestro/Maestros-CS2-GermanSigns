@@ -111,7 +111,6 @@
     <ItemGroup>
       <AdditionalFilesToDeployAtlas Include="Resources\atlases\**\*.png" />
       <AdditionalFilesToDeployFonts Include="Resources\fonts\**\*.ttf" />
-      <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.wedefault.xml" />
       <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.welayout.xml" />
     </ItemGroup>
     <Copy SourceFiles="@(AdditionalFilesToDeployAtlas)"		DestinationFiles="@(AdditionalFilesToDeployAtlas->'$(DeployDir)\atlases\%(RecursiveDir)%(Filename)%(Extension)')" />
