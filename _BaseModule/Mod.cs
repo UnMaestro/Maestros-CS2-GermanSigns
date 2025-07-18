@@ -78,7 +78,7 @@ namespace _BaseModule
             var weAsset = AssetDatabase.global.GetAsset(SearchFilter<ExecutableAsset>.ByCondition(asset => asset.isEnabled && asset.isLoaded && asset.name.Equals("BelzontWE")));
             if (weAsset?.assembly is null)
             {
-                log.Error($"The module {GetType().Name} requires Write Everywhere mod to work!");
+                log.Error($"The module {GetType().Assembly.GetName().Name} requires Write Everywhere mod to work!");
                 return false;
             }
 
