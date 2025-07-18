@@ -24,15 +24,17 @@ namespace _BaseModule
 
             if (GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
                 log.Info($"Current mod asset at {asset.path}");
-           
+
             GameManager.instance.RegisterUpdater(DoWhenLoaded);
         }
 
         private void DoWhenLoaded()
         {
             log.Info($"Loading patches");
-            DoPatches();
-            RegisterModFiles();
+            if (DoPatches())
+            {
+                RegisterModFiles();
+            }
         }
 
         private void RegisterModFiles()
@@ -71,13 +73,13 @@ namespace _BaseModule
             }
         }
 
-        private void DoPatches()
+        private bool DoPatches()
         {
             var weAsset = AssetDatabase.global.GetAsset(SearchFilter<ExecutableAsset>.ByCondition(asset => asset.isEnabled && asset.isLoaded && asset.name.Equals("BelzontWE")));
             if (weAsset?.assembly is null)
             {
-                throw new Exception($"The module {GetType().Name} requires Write Everywhere mod to work!");
-
+                log.Error($"The module {GetType().Name} requires Write Everywhere mod to work!");
+                return false;
             }
 
             var exportedTypes = weAsset.assembly.ExportedTypes;
@@ -96,7 +98,7 @@ namespace _BaseModule
                     else log.Warn($"Method not found while patching WE: {targetType.FullName} {srcMethod.Name}({string.Join(", ", method.GetParameters().Select(x => $"{x.ParameterType}"))})");
                 }
             }
-
+            return true;
         }
 
         public void OnDispose()
