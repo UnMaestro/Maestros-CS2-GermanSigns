@@ -105,6 +105,7 @@
     <Folder Include="Resources\layouts\" />
     <Folder Include="Resources\atlases\" />
     <Folder Include="Resources\fonts\" />
+    <Folder Include="Resources\objMeshes\" />
   </ItemGroup>
   
   <Target Name="GetAdditionalFiles" AfterTargets="DeployWIP">
@@ -113,9 +114,11 @@
       <AdditionalFilesToDeployFonts Include="Resources\fonts\**\*.ttf" />
       <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.welayout.xml" />
       <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.wedefault.xml" />
+      <AdditionalFilesToDeployMeshes Include="Resources\objMeshes\**\*.obj" />
     </ItemGroup>
     <Copy SourceFiles="@(AdditionalFilesToDeployAtlas)"		DestinationFiles="@(AdditionalFilesToDeployAtlas->'$(DeployDir)\atlases\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(AdditionalFilesToDeployFonts)"		DestinationFiles="@(AdditionalFilesToDeployFonts->'$(DeployDir)\fonts\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(AdditionalFilesToDeployLayouts)" DestinationFiles="@(AdditionalFilesToDeployLayouts->'$(DeployDir)\layouts\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(AdditionalFilesToDeployMeshes)" DestinationFiles="@(AdditionalFilesToDeployMeshes->'$(DeployDir)\objMeshes\%(Filename)%(Extension)')" />
   </Target>
 </Project>

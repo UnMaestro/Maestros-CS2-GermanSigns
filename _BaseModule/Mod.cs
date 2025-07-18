@@ -57,6 +57,18 @@ namespace _BaseModule
 
             var fontsDirectory = Path.Combine(modDir, "fonts");
             WEFontManagementBridge.RegisterModFonts(typeof(Mod).Assembly, fontsDirectory);
+
+            var objDirctory = Path.Combine(modDir, "objMeshes");
+
+            var meshes = Directory.GetFiles(objDirctory, "*.obj", SearchOption.AllDirectories);
+            foreach (var meshFile in meshes)
+            {
+                var meshName = Path.GetFileNameWithoutExtension(meshFile);
+                if (!WEMeshManagementBridge.RegisterMesh(typeof(Mod).Assembly, meshName, meshFile))
+                {
+                    log.Warn($"Failed to register mesh: {meshName} from {meshFile}");
+                }
+            }
         }
 
         private void DoPatches()
@@ -73,6 +85,7 @@ namespace _BaseModule
                     (typeof(WEFontManagementBridge), "FontManagementBridge"),
                     (typeof(WEImageManagementBridge), "ImageManagementBridge"),
                     (typeof(WETemplatesManagementBridge), "TemplatesManagementBridge"),
+                    (typeof(WEMeshManagementBridge), "MeshManagementBridge"),
                 })
             {
                 var targetType = exportedTypes.First(x => x.Name == sourceClassName);
