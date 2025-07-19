@@ -62,13 +62,16 @@ namespace _BaseModule
 
             var objDirctory = Path.Combine(modDir, "objMeshes");
 
-            var meshes = Directory.GetFiles(objDirctory, "*.obj", SearchOption.AllDirectories);
-            foreach (var meshFile in meshes)
+            if (Directory.Exists(objDirctory))
             {
-                var meshName = Path.GetFileNameWithoutExtension(meshFile);
-                if (!WEMeshManagementBridge.RegisterMesh(typeof(Mod).Assembly, meshName, meshFile))
+                var meshes = Directory.GetFiles(objDirctory, "*.obj", SearchOption.AllDirectories);
+                foreach (var meshFile in meshes)
                 {
-                    log.Warn($"Failed to register mesh: {meshName} from {meshFile}");
+                    var meshName = Path.GetFileNameWithoutExtension(meshFile);
+                    if (!WEMeshManagementBridge.RegisterMesh(typeof(Mod).Assembly, meshName, meshFile))
+                    {
+                        log.Warn($"Failed to register mesh: {meshName} from {meshFile}");
+                    }
                 }
             }
         }
