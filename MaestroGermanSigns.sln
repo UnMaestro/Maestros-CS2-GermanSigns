@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_BaseModule", "_BaseModule\_BaseModule.csproj", "{0C267C04-0E5A-4BA9-BB6C-536BB51F6671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GermanSigns", "_BaseModule\MaestroGermanSigns.csproj", "{0C267C04-0E5A-4BA9-BB6C-536BB51F6671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
