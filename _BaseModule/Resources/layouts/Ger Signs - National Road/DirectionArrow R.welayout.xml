@@ -9,7 +9,7 @@
       <arrayInstances x="1" y="1" z="1" />
       <arraySpacing x="0" y="0" z="0" />
     </transform>
-    <imageMesh atlas="German Signs - Yellow Bundess">
+    <imageMesh atlas="MaestroGermanSigns:Ger Yellow Bundesstraße">
       <mesh></mesh>
       <image>Direction sign (R)</image>
     </imageMesh>
@@ -153,7 +153,7 @@
         <arrayInstances x="1" y="1" z="1" />
         <arraySpacing x="0" y="0" z="0" />
       </transform>
-      <imageMesh atlas="German Signs - Yellow Bundess">
+      <imageMesh atlas="MaestroGermanSigns:Ger Yellow Bundesstraße">
         <mesh></mesh>
         <image>BStraße number</image>
       </imageMesh>
@@ -211,7 +211,7 @@
         <arrayInstances x="1" y="1" z="1" />
         <arraySpacing x="0" y="0" z="0" />
       </transform>
-      <imageMesh atlas="German Signs - Yellow Bundess">
+      <imageMesh atlas="MaestroGermanSigns:Ger Yellow Bundesstraße">
         <mesh></mesh>
         <image>Direction sign (L)</image>
       </imageMesh>
@@ -355,7 +355,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Yellow Bundess">
+        <imageMesh atlas="MaestroGermanSigns:Ger Yellow Bundesstraße">
           <mesh></mesh>
           <image>BStraße number</image>
         </imageMesh>

@@ -9,7 +9,7 @@
       <arrayInstances x="1" y="1" z="1" />
       <arraySpacing x="0" y="0" z="0" />
     </transform>
-    <imageMesh atlas="German Signs - Brown Tourist">
+    <imageMesh atlas="MaestroGermanSigns:Ger Brown Tourist">
       <mesh></mesh>
       <image>Tourist Notice Small</image>
     </imageMesh>
@@ -65,7 +65,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Symbols">
+        <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
           <mesh></mesh>
           <image>Castle</image>
         </imageMesh>
@@ -94,7 +94,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Arrows">
+        <imageMesh atlas="MaestroGermanSigns:Ger Arrows">
           <mesh></mesh>
           <image>WhiteTourist Left</image>
         </imageMesh>
@@ -124,7 +124,7 @@
         <arrayInstances x="1" y="1" z="1" />
         <arraySpacing x="0" y="0" z="0" />
       </transform>
-      <imageMesh atlas="German Signs - Brown Tourist">
+      <imageMesh atlas="MaestroGermanSigns:Ger Brown Tourist">
         <mesh></mesh>
         <image>Tourist Notice Small</image>
       </imageMesh>
@@ -180,7 +180,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Symbols">
+          <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
             <mesh></mesh>
             <image>Castle</image>
           </imageMesh>
@@ -209,7 +209,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Arrows">
+          <imageMesh atlas="MaestroGermanSigns:Ger Arrows">
             <mesh></mesh>
             <image>WhiteTourist Right</image>
           </imageMesh>

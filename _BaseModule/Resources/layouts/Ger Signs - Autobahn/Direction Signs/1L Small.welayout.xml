@@ -9,7 +9,7 @@
       <arrayInstances x="1" y="1" z="1" />
       <arraySpacing x="0" y="0" z="0" />
     </transform>
-    <imageMesh atlas="German Signs - Blue Autobahn">
+    <imageMesh atlas="MaestroGermanSigns:Ger Blue Autobahn">
       <mesh></mesh>
       <image>Blue Empty Wide</image>
     </imageMesh>
@@ -94,7 +94,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Symbols">
+        <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
           <mesh></mesh>
           <image>Airport White Background</image>
         </imageMesh>
@@ -122,7 +122,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Symbols">
+          <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
             <mesh></mesh>
             <image>Ferry</image>
           </imageMesh>
@@ -151,7 +151,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Symbols">
+          <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
             <mesh></mesh>
             <image>Park and Ride</image>
           </imageMesh>
@@ -210,7 +210,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Symbols">
+        <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
           <mesh></mesh>
           <image>Stadium</image>
         </imageMesh>
@@ -238,7 +238,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Symbols">
+          <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
             <mesh></mesh>
             <image>GVZ-Cargo Centre</image>
           </imageMesh>
@@ -269,7 +269,7 @@
         <arrayInstances x="1" y="1" z="1" />
         <arraySpacing x="0" y="0" z="0" />
       </transform>
-      <imageMesh atlas="German Signs - Arrows">
+      <imageMesh atlas="MaestroGermanSigns:Ger Arrows">
         <mesh></mesh>
         <image>White Small</image>
       </imageMesh>

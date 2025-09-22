@@ -1,9 +1,8 @@
 <Publish>
-  <ModId Value="" />
+  <ModId Value="120627" />
   <DisplayName Value="German Signs (WE-Module)" />
   <ShortDescription Value="A WriteEverywhere-Module that give the ability to place, create or edit German Signs" />
-  <LongDescription>
-  # German Signs WE-Module for Cities: Skylines II
+  <LongDescription># German Signs WE-Module for Cities: Skylines II
 
 Hello or Hallo!  
 This is a **Write Everywhere module** that brings a collection of **German road signs** into your game.  
@@ -18,7 +17,7 @@ This module focuses on realism and flexibility – almost every value (names, di
 - **Autobahn** – Blue-colored signs  
 - **Bundesstraße / Landstraße** – Yellow-colored signs  
 - **Tourist Signs** – Brown-colored signs  
-- **Traffic and Miscellaneous Signs** 
+- **Traffic &amp; Miscellaneous Signs** 
 
  Planned for future updates:  
 - Localroad signs (white)  
@@ -41,7 +40,7 @@ This module focuses on realism and flexibility – almost every value (names, di
 
 ---
 
-###  Tourist and POI Signs
+###  Tourist &amp; POI Signs
 - Authentic brown-colored signs for cultural or recreational spots  
 - Also added leisure signs that can be seen on Highways
 
@@ -51,14 +50,14 @@ This module focuses on realism and flexibility – almost every value (names, di
 
 1. Install the **Requirements** needed for this mod.
 3. Place a matching road structure in-game.  
-4. Open the **Write Everywhere** menu (`CTRL + W`).
+4. Open the **Write Everywhere** menu (Default: `CTRL + Shift + W`).
 4. Click on the structure you wanna edit.  
 5. Click on `Import layout from xml at root...`
 6. Click on the puzzle-piece(*Templates from mods*)
 7. Choose the desired template and customize it. 
 
 ### Customize and Save Signs
-- Select the root object → **Save and Export as XML**  
+- Select the root object → **Save &amp; Export as XML**  
 - Templates can be reused in the same city or other saves.  
 - All templates are stored locally.
 - These don't need the step "Templates from mods"
@@ -92,7 +91,7 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 ---
 
 ##  Notes
-- Layout inspiration from Google Maps and Wikipedia  
+- Layout inspiration from Google Maps &amp; Wikipedia  
 - German signage system offers many variations – suggestions are welcome!  
 - Performance impact should be minimal (tested on mid-range systems).  
 
@@ -106,11 +105,14 @@ Highly customizable, realistic, and continuously expanding – perfect for anyon
 - To Klyte45 for the WriteEverywhere Mod and free Template to use.
 - To lolok for the highway structures used in this mod.
 
-## Enjoy and share your feedback!  
-</LongDescription>
-
+## Enjoy &amp; share your feedback!</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
-
+  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534" />
+  <ModVersion Value="1.0.6" />
+  <GameVersion Value="1.*" />
+  <ChangeLog>#  v1.0.0
+\&lt;initial release\&gt;</ChangeLog>
+  <Tag Value="Code Mod" />
   <Screenshot Value="Screenshots\Screenshot_1.jpg" />
   <Screenshot Value="Screenshots\Screenshot_2.jpg" />
   <Screenshot Value="Screenshots\Screenshot_3.jpg" />
@@ -120,12 +122,7 @@ Highly customizable, realistic, and continuously expanding – perfect for anyon
   <Screenshot Value="Screenshots\Screenshot_7.jpg" />
   <Screenshot Value="Screenshots\Screenshot_8.jpg" />
   <Screenshot Value="Screenshots\Screenshot_9.jpg" />
-
-  <ForumLink Value="" />
-  <ModVersion Value="1.0.0" />
-  <GameVersion Value="1.*" />
-  <ChangeLog>#  v1.0.0
-\&lt;initial Release\&gt;</ChangeLog>
-  <Tag Value="Code Mod" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
+  <Dependency Id="113261" ModVersion="" DisplayName="Highway Sign Structures" />
+  <ExternalLink Type="github" Url="https://github.com/UnMaestro/Maestros-CS2-GermanSigns" />
 </Publish>

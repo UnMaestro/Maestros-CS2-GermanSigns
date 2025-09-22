@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFramework>net472</TargetFramework>
+		<TargetFramework>net48</TargetFramework>
     <LangVersion>12</LangVersion>
 		<Configurations>Debug;Release</Configurations>
 		
@@ -17,13 +17,13 @@
 
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
-    <ModId></ModId>
-    <Version>1.0.0</Version>
+    <ModId>120627</ModId>
+    <Version>1.0.6</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
     <DisplayName>German Signs (WE-Module)</DisplayName>
     <ShortDescription>A WriteEverywhere-Module that give the ability to place, create or edit German Signs</ShortDescription>
-    <ForumLink></ForumLink>
+    <ForumLink>https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534</ForumLink>
     <GitHubLink>https://github.com/UnMaestro/Maestros-CS2-GermanSigns</GitHubLink>
     <YoutubeLink></YoutubeLink>
     <KofiLink></KofiLink>
@@ -39,6 +39,11 @@
     <Dependency Include="WriteEverywhere">
       <ModId>92908</ModId>
       <DisplayName>Write Everywhere</DisplayName>
+    </Dependency>
+    
+    <Dependency Include="HighwaySignStructures">
+      <ModId>113261</ModId>
+      <DisplayName>Highway Sign Structures</DisplayName>
     </Dependency>
   </ItemGroup>
   
@@ -107,7 +112,12 @@
     <Folder Include="Resources\fonts\" />
     <Folder Include="Resources\objMeshes\" />
   </ItemGroup>
-  
+
+  <PropertyGroup>
+    <DebuggerMode>true</DebuggerMode>
+  </PropertyGroup>
+
+
   <Target Name="GetAdditionalFiles" AfterTargets="DeployWIP">
     <ItemGroup>
       <AdditionalFilesToDeployAtlas Include="Resources\atlases\**\*.png" />

@@ -9,7 +9,7 @@
       <arrayInstances x="1" y="1" z="1" />
       <arraySpacing x="0" y="0" z="0" />
     </transform>
-    <imageMesh atlas="German Signs - Yellow Bundess">
+    <imageMesh atlas="MaestroGermanSigns:Ger Yellow Bundesstraße">
       <mesh></mesh>
       <image>Yellow Empty Medium Long</image>
     </imageMesh>
@@ -94,7 +94,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Brown Tourist">
+        <imageMesh atlas="MaestroGermanSigns:Ger Brown Tourist">
           <mesh></mesh>
           <image>Tourist Background</image>
         </imageMesh>
@@ -239,7 +239,7 @@
           <arrayInstances x="1" y="1" z="1" />
           <arraySpacing x="0" y="0" z="0" />
         </transform>
-        <imageMesh atlas="German Signs - Symbols">
+        <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
           <mesh></mesh>
           <image>Industry-Business</image>
         </imageMesh>
@@ -267,7 +267,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Symbols">
+          <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
             <mesh></mesh>
             <image>Stadium</image>
           </imageMesh>
@@ -296,7 +296,7 @@
             <arrayInstances x="1" y="1" z="1" />
             <arraySpacing x="0" y="0" z="0" />
           </transform>
-          <imageMesh atlas="German Signs - Symbols">
+          <imageMesh atlas="MaestroGermanSigns:Ger Symbols">
             <mesh></mesh>
             <image>Pool Outdoor</image>
           </imageMesh>
@@ -327,7 +327,7 @@
         <arrayInstances x="1" y="1" z="1" />
         <arraySpacing x="0" y="0" z="0" />
       </transform>
-      <imageMesh atlas="German Signs - Arrows">
+      <imageMesh atlas="MaestroGermanSigns:Ger Arrows">
         <mesh></mesh>
         <image>Black Roundabout Wide F-R</image>
       </imageMesh>

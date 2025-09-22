@@ -9,7 +9,7 @@
       <arrayInstances x="1" y="1" z="1" />
       <arraySpacing x="0" y="0" z="0" />
     </transform>
-    <imageMesh atlas="German Signs - Blue Autobahn">
+    <imageMesh atlas="MaestroGermanSigns:Ger Blue Autobahn">
       <mesh></mesh>
       <image>Autobahn Ausfahrt</image>
     </imageMesh>

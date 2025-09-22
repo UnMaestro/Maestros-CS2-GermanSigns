@@ -46,7 +46,7 @@ This module focuses on realism and flexibility – almost every value (names, di
 
 1. Install the **Requirements** needed for this mod.
 3. Place a matching road structure in-game.  
-4. Open the **Write Everywhere** menu (`CTRL + W`).
+4. Open the **Write Everywhere** menu (Default: `CTRL + Shift + W`).
 4. Click on the structure you wanna edit.  
 5. Click on `Import layout from xml at root...`
 6. Click on the puzzle-piece(*Templates from mods*)
