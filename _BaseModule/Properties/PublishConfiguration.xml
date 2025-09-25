@@ -108,10 +108,9 @@ Highly customizable, realistic, and continuously expanding – perfect for anyon
 ## Enjoy &amp; share your feedback!</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534" />
-  <ModVersion Value="1.0.6" />
+  <ModVersion Value="1.0.6.3" />
   <GameVersion Value="1.*" />
-  <ChangeLog>#  v1.0.0
-\&lt;initial release\&gt;</ChangeLog>
+  <ChangeLog>Checked every layout. This fix aplies mostly for the Plate Foreign Country Sign which had a wrong atlas.</ChangeLog>
   <Tag Value="Code Mod" />
   <Screenshot Value="Screenshots\Screenshot_1.jpg" />
   <Screenshot Value="Screenshots\Screenshot_2.jpg" />
