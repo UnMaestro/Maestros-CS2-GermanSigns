@@ -1,1 +1,0 @@
-Add on this folder obj mesh files. Do not use subfolders!

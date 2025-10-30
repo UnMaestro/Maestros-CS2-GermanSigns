@@ -18,7 +18,7 @@
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
     <ModId>120627</ModId>
-    <Version>1.0.6.3</Version>
+    <Version>1.1.0</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
     <DisplayName>German Signs (WE-Module)</DisplayName>
@@ -113,6 +113,8 @@
   <ItemGroup>
     <Folder Include="Resources\layouts\" />
     <Folder Include="Resources\atlases\" />
+    <Folder Include="Resources\objMeshes\" />
+    <Folder Include="Resources\fonts\" />
   </ItemGroup>
 
 
@@ -124,9 +126,13 @@
       <AdditionalFilesToDeployAtlas Include="Resources\atlases\**\*.png" />
       <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.welayout.xml" />
       <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.wedefault.xml" />
+      <AdditionalFilesToDeployMeshes Include="Resources\objMeshes\**\*.obj" />
+      <AdditionalFilesToDeployFonts Include="Resources\fonts\**\*.ttf" />
     </ItemGroup>
     <Copy SourceFiles="@(AdditionalFilesToDeployAtlas)" DestinationFiles="@(AdditionalFilesToDeployAtlas->'$(DeployDir)\atlases\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(AdditionalFilesToDeployLayouts)" DestinationFiles="@(AdditionalFilesToDeployLayouts->'$(DeployDir)\layouts\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(AdditionalFilesToDeployMeshes)" DestinationFiles="@(AdditionalFilesToDeployMeshes->'$(DeployDir)\objMeshes\%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(AdditionalFilesToDeployFonts)"		DestinationFiles="@(AdditionalFilesToDeployFonts->'$(DeployDir)\fonts\%(RecursiveDir)%(Filename)%(Extension)')" />
   </Target>
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">

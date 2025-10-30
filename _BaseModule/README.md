@@ -1,4 +1,5 @@
 # German Signs WE-Module for Cities: Skylines II
+### v.1.1 Digital Era Update
 
 Hello or Hallo!  
 This is a **Write Everywhere module** that brings a collection of **German road signs** into your game.  
@@ -93,9 +94,9 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 
 ---
 
-##  Summary
-This mod brings authentic **German Autobahn, Bundesstraße, tourist, and traffic signs** into Cities: Skylines II.  
-Highly customizable, realistic, and continuously expanding – perfect for anyone building a German-style city.  
+##  Check out my other Signs Modules
+- [Dutch Signs](https://mods.paradoxplaza.com/mods/121223/Windows)
+- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows)  
 
 ##  Special Thanks
 - To Klyte45 for the WriteEverywhere Mod and free Template to use.

@@ -3,6 +3,7 @@
   <DisplayName Value="German Signs (WE-Module)" />
   <ShortDescription Value="A WriteEverywhere-Module that give the ability to place, create or edit German Signs" />
   <LongDescription># German Signs WE-Module for Cities: Skylines II
+### v.1.1 Digital Era Update
 
 Hello or Hallo!  
 This is a **Write Everywhere module** that brings a collection of **German road signs** into your game.  
@@ -97,9 +98,9 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 
 ---
 
-##  Summary
-This mod brings authentic **German Autobahn, Bundesstraße, tourist, and traffic signs** into Cities: Skylines II.  
-Highly customizable, realistic, and continuously expanding – perfect for anyone building a German-style city.  
+##  Check out my other Signs Modules
+- [Dutch Signs](https://mods.paradoxplaza.com/mods/121223/Windows)
+- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows)  
 
 ##  Special Thanks
 - To Klyte45 for the WriteEverywhere Mod and free Template to use.
@@ -108,19 +109,40 @@ Highly customizable, realistic, and continuously expanding – perfect for anyon
 ## Enjoy &amp; share your feedback!</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534" />
-  <ModVersion Value="1.0.6.3" />
+  <ModVersion Value="1.1.0" />
   <GameVersion Value="1.*" />
-  <ChangeLog>Checked every layout. This fix aplies mostly for the Plate Foreign Country Sign which had a wrong atlas.</ChangeLog>
+  <ChangeLog># DIGITAL ERA UPDATE (v.1.1)
+
+### Added
+- Glowing LED Signs:
+	- Speed Limit(60, 80, 100, 120)
+	- Construction, Dangerpoint, Trafficjam
+	- Overtaking prohibtation for Trucks and Cars
+	- Green Arrow, Yellow Arrow and a Red Cross Lane Indicator
+	- End of Restricton -&gt; Speedlimit and Overtakings
+- Info Panel Sign:
+	- A 3 Lane Sign with 2 Digital Frames
+	- 2 Variants of Info Panels, with and without Icon
+- Parkingsystem Signs:
+	- 7 Segment LCD Display for free Parkingspace indication
+	- 2 Variants, Compact and Medium
+
+- Also:
+	- Added German EU Sign
+	- 2 New Bundesstrassen Signs
+	- One Simple Localroad Sign
+	- Some arrow additions
+	- Airport Icons: Arrivals and Departures, also Car Rental Icon
+
+### This update includes a new font called 7segment. It can be imported like any other font, except that in the selection menu you need to press the puzzle icon and choose "German Signs".</ChangeLog>
   <Tag Value="Code Mod" />
+  <Screenshot Value="Screenshots\Screenshot_0.jpg" />
   <Screenshot Value="Screenshots\Screenshot_1.jpg" />
   <Screenshot Value="Screenshots\Screenshot_2.jpg" />
   <Screenshot Value="Screenshots\Screenshot_3.jpg" />
   <Screenshot Value="Screenshots\Screenshot_4.jpg" />
   <Screenshot Value="Screenshots\Screenshot_5.jpg" />
-  <Screenshot Value="Screenshots\Screenshot_6.jpg" />
-  <Screenshot Value="Screenshots\Screenshot_7.jpg" />
-  <Screenshot Value="Screenshots\Screenshot_8.jpg" />
-  <Screenshot Value="Screenshots\Screenshot_9.jpg" />
+  <Screenshot Value="Screenshots\Thumbnail.jpg" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
   <Dependency Id="113261" ModVersion="" DisplayName="Highway Sign Structures" />
   <ExternalLink Type="github" Url="https://github.com/UnMaestro/Maestros-CS2-GermanSigns" />

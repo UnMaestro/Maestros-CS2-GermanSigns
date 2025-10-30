@@ -11,7 +11,7 @@
     </transform>
     <imageMesh atlas="MaestroGermanSigns:Ger Yellow Bundesstraße">
       <mesh></mesh>
-      <image>Yellow Empty Small Medium</image>
+      <image>Yellow Empty Medium Long</image>
     </imageMesh>
     <defaultStyle>
       <color>FFFFFFFF</color>
