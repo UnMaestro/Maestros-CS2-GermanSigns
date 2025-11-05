@@ -1,24 +1,19 @@
-# DIGITAL ERA UPDATE (v.1.1)
-
+# DIGITAL ERA UPDATE (v.1.1.1)
+## Fixes and Specials
 ### Added
-- Glowing LED Signs:
-	- Speed Limit(60, 80, 100, 120)
-	- Construction, Dangerpoint, Trafficjam
-	- Overtaking prohibtation for Trucks and Cars
-	- Green Arrow, Yellow Arrow and a Red Cross Lane Indicator
-	- End of Restricton -> Speedlimit and Overtakings
-- Info Panel Sign:
-	- A 3 Lane Sign with 2 Digital Frames
-	- 2 Variants of Info Panels, with and without Icon
-- Parkingsystem Signs:
-	- 7 Segment LCD Display for free Parkingspace indication
-	- 2 Variants, Compact and Medium
+- More Traffic Signs(Every Prohibitation, 2 Warning Signs, Levelcrossing Beacons and more)
+- Added More Prohibitation Layouts(with max height/weight/width and so on) and Levelcrossing Beacon Layout
+- Now every Traffic Sign should have a layout(Either a Default or specific one)
+- Autobahn Interchange Multi Exits, Autobahn Exitmarker with ExitNr, Rush-Hour Lane Infos, 
+- Nationalroad Small Roundabout Sign, Motorway Exit Sign, T-Junction Sign
+- Localroad Direction Arrow Signs
 
-- Also:
-	- Added German EU Sign
-	- 2 New Bundesstrassen Signs
-	- One Simple Localroad Sign
-	- Some arrow additions
-	- Airport Icons: Arrivals and Departures, also Car Rental Icon
+### Changes
+- Renamed some Layouts for better understanding and correctness
+- More Layout Sub Folders which provide more Informations(Example Autobahn: "Next to Lane" an "Over Lane" Signs)
+
+
+### Special Addition
+- "Mikestein Keep" Tourist Lecture Sign Added
 
 ### This update includes a new font called 7segment. It can be imported like any other font, except that in the selection menu you need to press the puzzle icon and choose "German Signs".

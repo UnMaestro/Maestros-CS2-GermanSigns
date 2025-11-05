@@ -18,7 +18,7 @@
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
     <ModId>120627</ModId>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
     <DisplayName>German Signs (WE-Module)</DisplayName>

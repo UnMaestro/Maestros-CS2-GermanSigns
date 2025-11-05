@@ -75,6 +75,7 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 - [*DIN 1451 Mittelschrift*, *DIN 1451 Engschrift*, *DIN 1451 Alt*](https://de.wikipedia.org/wiki/DIN_1451#Weblinks)
 - Click the link in Wikipedia that says: (*DIN 1451 Mittelschrift zum Download, archiviert bei www.archive.org*)
 - It will download a .zip with the fonts needed(You don't need *din1451d.tff*).
+- **7segment** -> Already inside of the mod. In the Font selection menu you need to press the puzzle icon and choose "German Signs" then 7segment.
 
 ####  How to install fonts
 1. Download the required fonts from the Links. (**Fileformat needs to be .ttf**)
@@ -96,10 +97,22 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 
 ##  Check out my other Signs Modules
 - [Dutch Signs](https://mods.paradoxplaza.com/mods/121223/Windows)
-- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows)  
+- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows) 
+- [Swiss Signs]()
+- [French Signs]() 
+- [Spanish Signs]()
+
+## Or Vanilla Overrider
+- [German Overrider](https://mods.paradoxplaza.com/mods/123745/Windows)
+- [Italian Overrider]() 
+- [Dutch Overrider]()
+- [Swiss Overrider](https://mods.paradoxplaza.com/mods/123563/Windows) 
+- [French Overrider](https://mods.paradoxplaza.com/mods/123893/Windows)
+- [Spanish Overrider]()
 
 ##  Special Thanks
 - To Klyte45 for the WriteEverywhere Mod and free Template to use.
 - To lolok for the highway structures used in this mod.
+- To Mike Builds for [showcasing](https://www.youtube.com/watch?v=C_LTizPthKg) the mod.
 
 ## Enjoy & share your feedback!  

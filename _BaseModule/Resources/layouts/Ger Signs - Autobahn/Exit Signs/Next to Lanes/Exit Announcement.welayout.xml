@@ -1,5 +1,5 @@
 <WELayout>
-  <self itemName="0L Announcement">
+  <self itemName="Exit Announcement">
     <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
       <offsetPosition x="0" y="2.87" z="-0.555" />
       <offsetRotation x="-0" y="0" z="0" />

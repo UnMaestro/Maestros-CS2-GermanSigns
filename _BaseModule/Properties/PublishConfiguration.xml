@@ -79,6 +79,7 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 - [*DIN 1451 Mittelschrift*, *DIN 1451 Engschrift*, *DIN 1451 Alt*](https://de.wikipedia.org/wiki/DIN_1451#Weblinks)
 - Click the link in Wikipedia that says: (*DIN 1451 Mittelschrift zum Download, archiviert bei www.archive.org*)
 - It will download a .zip with the fonts needed(You don't need *din1451d.tff*).
+- **7segment** -&gt; Already inside of the mod. In the Font selection menu you need to press the puzzle icon and choose "German Signs" then 7segment.
 
 ####  How to install fonts
 1. Download the required fonts from the Links. (**Fileformat needs to be .ttf**)
@@ -100,39 +101,46 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 
 ##  Check out my other Signs Modules
 - [Dutch Signs](https://mods.paradoxplaza.com/mods/121223/Windows)
-- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows)  
+- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows) 
+- [Swiss Signs]()
+- [French Signs]() 
+- [Spanish Signs]()
+
+## Or Vanilla Overrider
+- [German Overrider](https://mods.paradoxplaza.com/mods/123745/Windows)
+- [Italian Overrider]() 
+- [Dutch Overrider]()
+- [Swiss Overrider](https://mods.paradoxplaza.com/mods/123563/Windows) 
+- [French Overrider](https://mods.paradoxplaza.com/mods/123893/Windows)
+- [Spanish Overrider]()
 
 ##  Special Thanks
 - To Klyte45 for the WriteEverywhere Mod and free Template to use.
 - To lolok for the highway structures used in this mod.
+- To Mike Builds for [showcasing](https://www.youtube.com/watch?v=C_LTizPthKg) the mod.
 
 ## Enjoy &amp; share your feedback!</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534" />
-  <ModVersion Value="1.1.0" />
+  <ModVersion Value="1.1.1" />
   <GameVersion Value="1.*" />
-  <ChangeLog># DIGITAL ERA UPDATE (v.1.1)
-
+  <ChangeLog># DIGITAL ERA UPDATE (v.1.1.1)
+## Fixes and Specials
 ### Added
-- Glowing LED Signs:
-	- Speed Limit(60, 80, 100, 120)
-	- Construction, Dangerpoint, Trafficjam
-	- Overtaking prohibtation for Trucks and Cars
-	- Green Arrow, Yellow Arrow and a Red Cross Lane Indicator
-	- End of Restricton -&gt; Speedlimit and Overtakings
-- Info Panel Sign:
-	- A 3 Lane Sign with 2 Digital Frames
-	- 2 Variants of Info Panels, with and without Icon
-- Parkingsystem Signs:
-	- 7 Segment LCD Display for free Parkingspace indication
-	- 2 Variants, Compact and Medium
+- More Traffic Signs(Every Prohibitation, 2 Warning Signs, Levelcrossing Beacons and more)
+- Added More Prohibitation Layouts(with max height/weight/width and so on) and Levelcrossing Beacon Layout
+- Now every Traffic Sign should have a layout(Either a Default or specific one)
+- Autobahn Interchange Multi Exits, Autobahn Exitmarker with ExitNr, Rush-Hour Lane Infos, 
+- Nationalroad Small Roundabout Sign, Motorway Exit Sign, T-Junction Sign
+- Localroad Direction Arrow Signs
 
-- Also:
-	- Added German EU Sign
-	- 2 New Bundesstrassen Signs
-	- One Simple Localroad Sign
-	- Some arrow additions
-	- Airport Icons: Arrivals and Departures, also Car Rental Icon
+### Changes
+- Renamed some Layouts for better understanding and correctness
+- More Layout Sub Folders which provide more Informations(Example Autobahn: "Next to Lane" an "Over Lane" Signs)
+
+
+### Special Addition
+- "Mikestein Keep" Tourist Lecture Sign Added
 
 ### This update includes a new font called 7segment. It can be imported like any other font, except that in the selection menu you need to press the puzzle icon and choose "German Signs".</ChangeLog>
   <Tag Value="Code Mod" />
