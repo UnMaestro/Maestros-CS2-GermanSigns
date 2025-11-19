@@ -1,0 +1,457 @@
+<WELayout>
+  <self itemName="Signpost Anchor">
+    <transform alignment="Left" arrayAxisOrder="XYZ">
+      <offsetPosition x="0" y="0" z="0" />
+      <offsetRotation x="-0" y="0" z="0" />
+      <scale x="1" y="1" z="1" />
+      <mustDraw>1</mustDraw>
+      <instanceCount>-1</instanceCount>
+      <arrayInstances x="1" y="1" z="1" />
+      <arraySpacing x="0" y="0" z="0" />
+    </transform>
+    <matrixTransform>
+      <offsetPosition>
+        <defaultValue x="0" y="2" z="-0.6" />
+      </offsetPosition>
+    </matrixTransform>
+  </self>
+  <children>
+    <self itemName="Sign Background">
+      <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+        <offsetPosition x="0" y="-0.175" z="0.05" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="1" y="0.25" z="1" />
+        <mustDraw>1</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+        <mesh></mesh>
+        <image>Background R Empty</image>
+      </imageMesh>
+      <defaultStyle>
+        <color>FFFFFFFF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="First Line">
+        <transform alignment="Left" arrayAxisOrder="XYZ">
+          <offsetPosition x="0.03" y="0.049999997" z="0" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.075" y="0.075" z="1" />
+          <mustDraw>1</mustDraw>
+          <instanceCount>-1</instanceCount>
+          <arrayInstances x="1" y="1" z="1" />
+          <arraySpacing x="0" y="0" z="0" />
+        </transform>
+        <matrixTransform>
+          <offsetPosition>
+            <defaultValue x="0" y="0.05" z="0" />
+          </offsetPosition>
+        </matrixTransform>
+      </self>
+      <children>
+        <self itemName="Arrow">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="0.415" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="45.0000038" />
+            <scale x="0.1" y="0.1" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>Arrow Red Straight</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="1. Target Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="0.32" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>R-Target City Center</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="2. Target Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="0.25000003" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>R-Target Stadium</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="Destination">
+          <transform alignment="Left" arrayAxisOrder="XYZ">
+            <offsetPosition x="-0.0349999964" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <textMesh fontName="DINMittelschriftStd">
+            <text>Oberhausen</text>
+            <MaxWidthMeters>0</MaxWidthMeters>
+          </textMesh>
+          <defaultStyle>
+            <color>E4312AFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="Road Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="-0.294999957" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>R-Road Leisure Trail</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="Distance">
+          <transform alignment="Left" arrayAxisOrder="XYZ">
+            <offsetPosition x="-0.39" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <textMesh fontName="DINMittelschriftStd">
+            <text>10</text>
+            <MaxWidthMeters>0</MaxWidthMeters>
+          </textMesh>
+          <defaultStyle>
+            <color>E4312AFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Second Line">
+        <transform alignment="Left" arrayAxisOrder="XYZ">
+          <offsetPosition x="0.03" y="0.049999997" z="0" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.075" y="0.075" z="1" />
+          <mustDraw>1</mustDraw>
+          <instanceCount>-1</instanceCount>
+          <arrayInstances x="1" y="1" z="1" />
+          <arraySpacing x="0" y="0" z="0" />
+        </transform>
+        <matrixTransform>
+          <offsetPosition>
+            <defaultValue x="0" y="-0.05" z="0" />
+          </offsetPosition>
+        </matrixTransform>
+      </self>
+      <children>
+        <self itemName="Bike Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="0.415" y="-0.005" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.103" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>R Bicycle Icon</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="1. Target Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="0.32" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>Tram Logo</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="2. Target Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="0.25" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>R-Target Cyclestation Letter</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="Destination">
+          <transform alignment="Left" arrayAxisOrder="XYZ">
+            <offsetPosition x="-0.0100000091" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <textMesh fontName="DINMittelschriftStd">
+            <text>E. Frintrop</text>
+            <MaxWidthMeters>0</MaxWidthMeters>
+          </textMesh>
+          <defaultStyle>
+            <color>E4312AFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="Road Icon">
+          <transform alignment="Left" isAbsoluteScale="true" arrayAxisOrder="XYZ">
+            <offsetPosition x="-0.249999955" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <imageMesh atlas="MaestroGermanSigns:Ger BicycleRoad">
+            <mesh></mesh>
+            <image>R-Road Leisure Trail</image>
+          </imageMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+      <children>
+        <self itemName="Distance">
+          <transform alignment="Left" arrayAxisOrder="XYZ">
+            <offsetPosition x="-0.405" y="0" z="0" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.063" y="0.063" z="1" />
+            <mustDraw>1</mustDraw>
+            <instanceCount>-1</instanceCount>
+            <arrayInstances x="1" y="1" z="1" />
+            <arraySpacing x="0" y="0" z="0" />
+          </transform>
+          <textMesh fontName="DINMittelschriftStd">
+            <text>2,2</text>
+            <MaxWidthMeters>0</MaxWidthMeters>
+          </textMesh>
+          <defaultStyle>
+            <color>E4312AFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>0</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Backside">
+        <transform alignment="Left" arrayAxisOrder="XYZ">
+          <offsetPosition x="0" y="0" z="-0.005" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="1" y="0.25" z="1" />
+          <mustDraw>1</mustDraw>
+          <instanceCount>-1</instanceCount>
+          <arrayInstances x="1" y="1" z="1" />
+          <arraySpacing x="0" y="0" z="0" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+  </children>
+</WELayout>

@@ -1,5 +1,6 @@
 # German Signs WE-Module for Cities: Skylines II
-### v.1.1 Digital Era Update
+### SERIE A PACK
+### v.1.2 The Bicycle Highway Update
 
 Hello or Hallo!  
 This is a **Write Everywhere module** that brings a collection of **German road signs** into your game.  
@@ -8,38 +9,39 @@ This module focuses on realism and flexibility – almost every value (names, di
 ---
 
 ##  Features
-- Over 80 templates for easy import
-- 300 images ranging from traffic signs to arrows 
+- Over 150 templates for easy import
+- 450 images ranging from traffic signs to arrows 
 ###  Road Sign Types
-- **Autobahn** – Blue-colored signs  
+- **Autobahn** – Blue-colored signs
 - **Bundesstraße / Landstraße** – Yellow-colored signs  
+- **Digital Signs** – Signs with electronic Infomation for Autobahn and on Localroad
 - **Tourist Signs** – Brown-colored signs  
+- **Localroad Signs** – White-colored signs  
 - **Traffic & Miscellaneous Signs** 
+- **Bicycle Road Signs** 
 
- Planned for future updates:  
-- Localroad signs (white)  
-- More templates for easy import and varity
-- More images for signs
+### Next in the future updates:
+- The Ruhr calls Update (Shipway Signs)
 
 ---
 
+## Road Sign Special Infos
+
 ###  Traffic Signs
-- Danger, prohibition, mandatory signs and many more
-- Many signs use shared prefabs (e.g. triangles for danger) → less clutter, more customization  
+- Danger, prohibition, mandatory signs and many more with Customizable variables 
+- Shared prefabs, Default Signs → less clutter, more customization
 - Includes combined signs like:  
   - *“Umweltzone – Grüne Plakette frei”*  
   - *“No Parking for 100m”*
   - and many more
-- Customizable variables like:  
-  - Distances  
-  - Height/width restrictions  
-  - Slopes (e.g. “Steigung n%”)  
+- Parking System Signs with Naming and current free Parkingspace
 
----
 
-###  Tourist & POI Signs
-- Authentic brown-colored signs for cultural or recreational spots  
-- Also added leisure signs that can be seen on Highways
+###  Bicycle Signs
+- 2 Variants Red(Only NRW) and Green
+- Easy and extremly Customizable
+- Ultra Realistim -> used official documents for sign, icon and font sizing
+- Green Sign [Documentation](https://www.aktivmobil-bw.de/fileadmin/user_upload/1_Radverkehr_in_BW/c_Projekte_Infrastruktur/Landesradfernwege/200414_Standards_FWW-BW_final.pdf) and Red Sign(NRW) [Documentation](https://www.radverkehrsnetz.nrw.de/downloads/HBR_NRW_Sep2017.pdf)
 
 ---
 
@@ -95,19 +97,20 @@ For copyright reasons, these fonts are **not included in the mod** and must be d
 
 ---
 
-##  Check out my other Signs Modules
-- [Dutch Signs](https://mods.paradoxplaza.com/mods/121223/Windows)
-- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows) 
-- [Swiss Signs]()
-- [French Signs]() 
-- [Spanish Signs]()
-
-## Or Vanilla Overrider
-- [German Overrider](https://mods.paradoxplaza.com/mods/123745/Windows)
-- [Italian Overrider]() 
+##  Check out my other Signs/Overrider Modules
+### Serie A
+- [German Signs](https://mods.paradoxplaza.com/mods/120627/Windows)
+- [German OVerrider](https://mods.paradoxplaza.com/mods/123745/Windows)
 - [Dutch Overrider]()
-- [Swiss Overrider](https://mods.paradoxplaza.com/mods/123563/Windows) 
+- [Italian Signs](https://mods.paradoxplaza.com/mods/121615/Windows)
+- [Italian Overrider](https://mods.paradoxplaza.com/mods/124269/Windows)
+
+### Serie B
+- [Swiss Signs](https://mods.paradoxplaza.com/mods/124288/Windows)
+- [Swiss Overrider](https://mods.paradoxplaza.com/mods/123563/Windows)
+- [French Signs](https://mods.paradoxplaza.com/mods/124289/Windows)
 - [French Overrider](https://mods.paradoxplaza.com/mods/123893/Windows)
+- [Spanish Signs](https://mods.paradoxplaza.com/mods/124290/Windows)
 - [Spanish Overrider]()
 
 ##  Special Thanks
