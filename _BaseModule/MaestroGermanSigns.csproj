@@ -18,10 +18,10 @@
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
     <ModId>120627</ModId>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
-    <DisplayName>German Signs !Bike Update!(WE-Module)</DisplayName>
+    <DisplayName>German Signs (WE-Module)</DisplayName>
     <ShortDescription>A WriteEverywhere-Module that give the ability to place, create or edit German Signs</ShortDescription>
     <ForumLink>https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534</ForumLink>
     <GitHubLink>https://github.com/UnMaestro/Maestros-CS2-GermanSigns</GitHubLink>
@@ -99,11 +99,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lib.Harmony" Version="2.3.3">
-      <IncludeAssets>compile</IncludeAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    <PackageReference Include="Lib.Harmony" Version="2.2.2"/>
   </ItemGroup>
 
   <ItemGroup>
