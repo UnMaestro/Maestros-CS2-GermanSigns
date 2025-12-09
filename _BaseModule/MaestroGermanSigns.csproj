@@ -26,10 +26,8 @@
     <ForumLink>https://forum.paradoxplaza.com/forum/threads/german-signs-we-module.1859534</ForumLink>
     <GitHubLink>https://github.com/UnMaestro/Maestros-CS2-GermanSigns</GitHubLink>
     <YoutubeLink></YoutubeLink>
-    <KofiLink></KofiLink>
-    <BMACLink></BMACLink>
-    <CrowdinLink></CrowdinLink>
-    <TwitterLink></TwitterLink>
+    <DiscordLink>https://discord.com/channels/1024242828114673724/1446097301775843488</DiscordLink>
+    <PayPalLink>https://www.paypal.com/paypalme/pas1800</PayPalLink>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
@@ -42,7 +40,7 @@
     </Dependency>
     
     <Dependency Include="HighwaySignStructures">
-      <ModId>113261</ModId>
+      <ModId>127499</ModId>
       <DisplayName>Highway Sign Structures</DisplayName>
     </Dependency>
   </ItemGroup>
